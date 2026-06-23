@@ -23,10 +23,10 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        // Text users will see (example: "Playing /help | Bat Le").
+        name: "Mega Bot Server",
         // Activity type number (0 = Playing).
-        type: 0,
+        type: 3,
       },
     ],
   },
@@ -139,7 +139,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Bat Le",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -446,8 +446,8 @@ export const botConfig = {
     welcome: true,
 
     // Community engagement systems.
-    tickets: true,
-    giveaways: true,
+    tickets: false,
+    giveaways: false,
     birthday: true,
     counter: true,
 
